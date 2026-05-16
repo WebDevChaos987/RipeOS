@@ -96,7 +96,7 @@ class Program
             {
                 Console.Write("Ripe-Web Search: ");
                 string search = Console.ReadLine();
-                string url = "https://www.google.com/search?q=" + search.Replace(" ", "+");
+                string url = "https://www.brave.com/search?q=" + search.Replace(" ", "+");
                 Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
             }
 
